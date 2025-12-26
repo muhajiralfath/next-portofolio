@@ -44,9 +44,11 @@ import { IoIosGitBranch } from "react-icons/io";
 import {
   SiAmazonwebservices,
   SiAngular,
+  SiApachekafka,
   SiBootstrap,
   SiCss3,
   SiExpress,
+  SiFiles,
   SiGmail,
   SiGraphql,
   SiHtml5,
@@ -59,9 +61,12 @@ import {
   SiNetlify,
   SiNextdotjs,
   SiNodedotjs,
+  SiPostman,
   SiReact,
+  SiRedis,
   SiRedux,
   SiSocketdotio,
+  SiSpringboot,
   SiTailwindcss,
   SiTypescript,
   SiX,
@@ -126,6 +131,11 @@ export const Icons = {
   linkedin: SiLinkedin,
   userFill: BiSolidUser,
   work: HiBriefcase,
+  springboot: SiSpringboot,
+  redis: SiRedis,
+  postman: SiPostman,
+  kafka: SiApachekafka,
+  files: SiFiles,
   gitHub: ({ ...props }: LucideProps) => (
     <svg
       aria-hidden="true"

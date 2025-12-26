@@ -1,13 +1,13 @@
 export const siteConfig = {
-  name: "Naman Barkiya | Developer Portfolio",
-  authorName: "Naman Barkiya",
-  username: "namanbarkiya",
+  name: "Muhammad Muhajir Al Fath | Developer Portfolio",
+  authorName: "Al Fath",
+  username: "muhajiralfath",
   description:
-    "Naman Barkiya's portfolio - A modern, responsive Next.js portfolio for developers. This open-source template can be customized to showcase your own skills, projects, and professional experience.",
+    "Muhammad Muhajir Al Fath's portfolio - A modern, responsive Next.js portfolio for developers. This open-source template can be customized to showcase your own skills, projects, and professional experience.",
   url: "https://nbarkiya.xyz",
   links: {
-    twitter: "https://x.com/namanbarkiya",
-    github: "https://github.com/namanbarkiya",
+    twitter: "https://x.com/muhajiralfath",
+    github: "https://github.com/muhajiralfath",
   },
   ogImage: "https://nbarkiya.xyz/profile-img.jpg",
   iconIco:
@@ -15,8 +15,8 @@ export const siteConfig = {
   logoIcon:
     "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357294/assets/naman-logo.png",
   keywords: [
-    "Naman Barkiya",
-    "Full Stack Developer",
+    "Muhammad Muhajir Al Fath",
+    "Software Engineer",
     "Web Developer Portfolio",
     "Next.js portfolio template",
     "React portfolio template",
@@ -25,7 +25,7 @@ export const siteConfig = {
     "Next.js template",
     "Modern portfolio website",
     "Frontend developer portfolio",
-    "Full stack developer portfolio",
+    "Software Engineer portfolio",
     "Open source portfolio template",
     "Web developer portfolio template",
     "Responsive portfolio template",

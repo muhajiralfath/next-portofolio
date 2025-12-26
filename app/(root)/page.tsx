@@ -37,7 +37,7 @@ export default function IndexPage() {
     name: siteConfig.authorName,
     url: siteConfig.url,
     image: siteConfig.ogImage,
-    jobTitle: "Full Stack Developer",
+    jobTitle: "Software Engineer",
     sameAs: [siteConfig.links.github, siteConfig.links.twitter],
   };
 
@@ -81,7 +81,7 @@ export default function IndexPage() {
             width={100}
             sizes="100vw"
             className="bg-primary rounded-full mb-0 h-auto md:mb-2 w-[60%] max-w-[16rem] border-8 border-primary"
-            alt="Naman Barkiya - Full Stack Developer Portfolio"
+            alt="Muhammad Muhajir Al Fath - Software Engineer Portfolio"
             priority
           />
           <AnimatedText
@@ -89,46 +89,56 @@ export default function IndexPage() {
             delay={0.2}
             className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl"
           >
-            Naman Barkiya
+            Muhammad Muhajir Al Fath
           </AnimatedText>
           <AnimatedText
             as="h3"
             delay={0.4}
             className="font-heading text-base sm:text-xl md:text-xl lg:text-2xl"
           >
-            Full Stack Developer
+            Software Engineer
           </AnimatedText>
           <div className="mt-4 max-w-[42rem] text-center">
             <p className="leading-normal text-muted-foreground text-sm sm:text-base">
-              Open-source Next.js portfolio template. Fork this on GitHub to
-              create your own developer portfolio.
+              I'm a software engineer mainly focused on web technologies. As a
+              full stack developer, I master several web development
+              technologies both in the front end and back end.
             </p>
           </div>
 
           <div className="flex flex-col mt-10 items-center justify-center sm:flex-row sm:space-x-4 gap-3">
             <AnimatedText delay={0.6}>
               <Link
-                href={"https://github.com/namanbarkiya"}
+                href={"https://github.com/muhajiralfath"}
                 target="_blank"
                 className={cn(buttonVariants({ size: "lg" }))}
-                aria-label="View Naman Barkiya's GitHub profile"
+                aria-label="View Muhammad Muhajir Al Fath's GitHub profile"
               >
                 <Icons.gitHub className="w-4 h-4 mr-2" /> GitHub
               </Link>
             </AnimatedText>
             <AnimatedText delay={0.8}>
-              <Link
-                href={"/contact"}
+              <a
+                href="/CV_Muhammad_Muhajir_Al_Fath.pdf"
+                download="CV_Muhammad_Muhajir_Al_Fath.pdf"
                 rel="noreferrer"
                 className={cn(
                   buttonVariants({
-                    variant: "outline",
+                    // variant: "outline",
                     size: "lg",
                   })
                 )}
-                aria-label="Contact Naman Barkiya"
               >
-                <Icons.contact className="w-4 h-4 mr-2" /> Contact
+                <Icons.page className="w-4 h-4 mr-2" /> Download CV
+              </a>
+            </AnimatedText>
+            <AnimatedText delay={0.6}>
+              <Link
+                href={"https://www.linkedin.com/in/muhajiralfath/"}
+                target="_blank"
+                className={cn(buttonVariants({ size: "lg" }))}
+              >
+                <Icons.linkedin className="w-4 h-4 mr-2" /> LinkedIn
               </Link>
             </AnimatedText>
           </div>
